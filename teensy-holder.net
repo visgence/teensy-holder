@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/esalazar/git/teensy-holder/teensy-holder.sch)
-    (date "1/23/2017 4:14:54 PM")
+    (date "1/25/2017 8:45:06 AM")
     (tool "Eeschema 4.0.5")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -295,10 +295,10 @@
         (pin (num gnd) (name GND) (type power_in))
         (pin (num vin) (name Vin) (type power_in)))))
   (libraries
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical visgence_parts)
       (uri C:\Users\esalazar\git\teensy-holder\..\visgence_parts\visgence_parts.lib)))
   (nets
